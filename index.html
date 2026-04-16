@@ -124,33 +124,36 @@
 <!-- Main Content Scroll Area -->
 <main class="flex-1 overflow-y-auto pb-24">
 <!-- Hero Drop Card -->
-<section class="w-full h-[530px] relative bg-surface-dark border-b-hard cursor-pointer active-scale overflow-hidden group">
+<section class="w-full h-[530px] relative bg-surface-dark border-b-hard cursor-pointer overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <!-- Status Badge -->
-<div class="absolute top-4 left-4 z-20 bg-black/70 text-white font-extrabold text-sm px-3 py-1 uppercase tracking-widest flex items-center gap-2 border border-primary/60 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
-<span class="w-2 h-2 rounded-full bg-accent animate-ping"></span>
+<div class="absolute top-6 right-6 z-20 bg-accent text-black font-extrabold text-xs px-4 py-2 uppercase tracking-widest flex items-center gap-2 backdrop-blur-md shadow-[0_10px_40px_rgba(255,46,46,0.3)] group-hover:scale-110 transition-transform duration-300">
+<span class="w-2 h-2 rounded-full bg-black animate-pulse"></span>
         AVAILABLE NOW
       </div>
 <!-- Parallax Image -->
 <div class="absolute inset-0 z-0">
-<div class="w-full h-full bg-center bg-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="dramatic lighting side profile of a premium green and white sneaker suspended in dark empty space with sharp shadows" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-gUAakypAfEOgwTNpxNKRhesi8GMdYZR-22IkBs4ktW78PoGM7QKZufhU3KWL1cpUKAbtlArAI8avSbe7O-hUqzzTzgjNbfVBf6gJ_aWRkNKLI92CDhbHy9RsITd9mvnR5mk2ASvHcX9oNq81Wu-JFgsWGAjp0K1whBhfgEPHeAjW9B9XJawbE0F1XC6ukDw7Nkxf28JoelvZH8qS8PrVhCecSFATVJ_XQRhQdgRmdQgk8zxt94bZelpoPDzQIXBLCYV4CfTWBIE');">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-700 ease-out group-hover:scale-110" data-alt="dramatic lighting side profile of a premium green and white sneaker suspended in dark empty space with sharp shadows" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-gUAakypAfEOgwTNpxNKRhesi8GMdYZR-22IkBs4ktW78PoGM7QKZufhU3KWL1cpUKAbtlArAI8avSbe7O-hUqzzTzgjNbfVBf6gJ_aWRkNKLI92CDhbHy9RsITd9mvnR5mk2ASvHcX9oNq81Wu-JFgsWGAjp0K1whBhfgEPHeAjW9B9XJawbE0F1XC6ukDw7Nkxf28JoelvZH8qS8PrVhCecSFATVJ_XQRhQdgRmdQgk8zxt94bZelpoPDzQIXBLCYV4CfTWBIE');">
 </div>
-<!-- Gradient Overlay -->
-<div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+<!-- Enhanced Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent opacity-90"></div>
 </div>
 <!-- Typography Overlay -->
-<div class="absolute bottom-0 left-0 w-full p-6 z-10 flex flex-col justify-end">
-<p class="font-mono text-primary text-xs tracking-widest mb-2">SKU: DR5415-103</p>
-<h1 class="text-4xl md:text-5xl font-extrabold uppercase leading-none tracking-tighter mb-1 break-words w-full">
+<div class="absolute bottom-0 left-0 w-full p-8 z-10 flex flex-col justify-end">
+<p class="font-mono text-primary text-xs tracking-widest mb-4 opacity-80 group-hover:opacity-100 transition-opacity">SKU: DR5415-103</p>
+<h1 class="text-5xl md:text-6xl font-extrabold uppercase leading-tight tracking-tighter mb-3 break-words w-full group-hover:text-primary transition-colors duration-300">
           JORDAN 4 RETRO SB
         </h1>
-<h2 class="text-2xl md:text-3xl font-bold text-gray-300 uppercase leading-none tracking-tight">
+<h2 class="text-3xl md:text-4xl font-bold text-primary uppercase leading-tight tracking-tight mb-6">
           PINE GREEN
         </h2>
-<div class="mt-4 flex justify-between items-end">
-<span class="font-mono text-xl font-bold">$225</span>
-<span class="text-sm font-bold text-primary flex items-center gap-1">
-            COP NOW <span class="material-symbols-outlined text-base">arrow_forward</span>
-</span>
+<div class="flex justify-between items-center gap-4">
+<div class="flex flex-col gap-1">
+<p class="font-mono text-xs text-muted">PRICE</p>
+<span class="font-mono text-3xl font-black">$225</span>
+</div>
+<button class="bg-primary text-black font-bold uppercase px-6 py-3 text-sm tracking-widest hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 hover:shadow-[0_10px_30px_rgba(216,249,6,0.4)] flex items-center gap-2">
+            COP NOW <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
 </div>
 </div>
 </section>
